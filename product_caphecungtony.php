@@ -29,7 +29,7 @@ include('header.php')
                         <div id="diquahoacuc-price"><b style="color:orange;"> 56.000đ </b><span><sub><strike> 75.000đ</strike></sub></span></div>
                     </div>
                     <?php
-                    include('btn/btn_up_down_amount_1.php');
+                    include('btn/btn_up_down_amount.php');
                     ?>
                 </div>
             </div>
