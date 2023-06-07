@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="css/project1_product.css">
 <link rel="stylesheet" href="css/project1_homepage.css">
 <link rel="stylesheet" href="css/category-book.css">
+<link rel="stylesheet" href="css/project1_product_info.css">
 <script src="https://kit.fontawesome.com/623c50a3c8.js" crossorigin="anonymous"></script>
 <!--<bottom>-->
     <div id="bottom" style="font-family: 'Helvetica Neue'">

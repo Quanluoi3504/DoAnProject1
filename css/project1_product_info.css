@@ -47,27 +47,18 @@
 #quantity {
     width: 50px;
 }
+#submit {
+    background: white;
+    width: 70px;
+}
 .wrapper {
     margin-top: 10px;
     margin-left: 450px;
     font-size: 30px;
 }
-#btn_amount {
-    background: orange;
-    width: 50px;
-    border-radius: 15px;
+#footer {
+    margin-top: 40px;
 }
-#btn_amount:hover {
-    background: black;
-    color: white;
-}
-#add_to_cart {
-    margin-top: 20px;
-    width: 70px;
-    border-radius: 15px;
-    background: orange;
-}
-#add_to_cart:hover {
-    background: black;
-    color: white;
+#top_line_footer {
+    margin-top: 10px;
 }

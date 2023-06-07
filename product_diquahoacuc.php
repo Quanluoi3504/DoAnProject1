@@ -28,9 +28,9 @@ include('header.php')
                         <div id="diquahoacuc-tt">Tình trạng: <span style="color:orange;"> Còn hàng</span> | Loại: <span style="color:orange;"> Sách tuổi teen</span></div>
                         <div id="diquahoacuc-price"><b style="color:orange;"> 56.000đ </b><span><sub><strike> 65.000đ</strike></sub></span></div>
                     </div>
-                    <?php
-                    include ('btn/btn_up_down_amount.php')
-                    ?>
+<!--                    --><?php
+//                    include ('btn/btn_up_down_amount.php')
+//                    ?>
                 </div>
             </div>
         </div>
