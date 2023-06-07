@@ -1,0 +1,9 @@
+#cart_line {
+    height: 300px;
+    background: white;
+    text-align: center;
+}
+#icon {
+    margin-top: 75px;
+    font-size: 150px;
+}

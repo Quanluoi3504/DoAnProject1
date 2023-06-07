@@ -1,0 +1,28 @@
+#news-body {
+    margin-top: -210px;
+    margin-left: 400px;
+    width: 800px;
+}
+
+#content-news {
+    width: 900px;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+#headline {
+    font-size: 25px;
+}
+#line1, #line2 {
+    margin-top: 20px;
+    font-size: 17px;
+}
+#img-news {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%
+}
+#trangchu {
+    margin-top: 10px;
+}

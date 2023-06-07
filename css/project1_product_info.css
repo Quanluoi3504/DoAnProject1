@@ -1,0 +1,73 @@
+
+#diquahoacuc {
+    margin-left: 450px;
+    margin-top: -250px;
+}
+#diquahoacuc-name {
+    font-size: 30px;
+}
+#diquahoacuc-tt {
+    margin-top: 10px;
+    font-size: 20px;
+}
+#diquahoacuc-price {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#introduce-product {
+    margin-top: 200px;
+}
+
+#img-intro {
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+#text {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#trangchu {
+    margin-top: 10px;
+}
+.quantity-section {
+    width: 160px;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+#decrease-btn {
+    width: 50px;
+    border-radius: 15px;
+}
+#increase-btn {
+    width: 50px;
+    border-radius: 15px;
+}
+#quantity {
+    width: 50px;
+}
+.wrapper {
+    margin-top: 10px;
+    margin-left: 450px;
+    font-size: 30px;
+}
+#btn_amount {
+    background: orange;
+    width: 50px;
+    border-radius: 15px;
+}
+#btn_amount:hover {
+    background: black;
+    color: white;
+}
+#add_to_cart {
+    margin-top: 20px;
+    width: 70px;
+    border-radius: 15px;
+    background: orange;
+}
+#add_to_cart:hover {
+    background: black;
+    color: white;
+}

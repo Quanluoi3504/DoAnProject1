@@ -1,0 +1,69 @@
+#top {
+    margin-top: 10px;
+    margin-left: 1000px;
+    font-size: 15px;
+    height: 30px;
+}
+#logo {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+#section2 {
+    background: #f26522;
+    height: 100px;
+}
+button {
+    height: 40px;
+    width: 110px;
+    color: black;
+}
+#section3 {
+    background: #da5b1f;
+    height: 40px;
+    margin-left: -50px;
+    margin-top: -16px;
+}
+#email-sign-in-bottom {
+    background: white;
+    margin-top: 100px;
+    height: 220px;
+}
+#email-sign-in1 {
+    margin-top: 30px;
+}
+#email-sign-in2 {
+    margin-top: 20px;
+}
+#section-signup {
+    margin-left: 50px
+}
+#trangchu {
+    margin-top: 10px;
+}
+#dangkytaikhoan {
+    margin-bottom: 30px;
+}
+#dk-email {
+    margin-top: 20px;
+    width: 200px;
+}
+#ho {
+    margin-top: 20px;
+}
+#ho, #Email-signup, #pw-signup, #ten-signup-main, #sdt-signup-main {
+    width: 400px;
+}
+#dn_sign_up {
+    margin-left: 150px;
+    margin-top: -30px;
+    width: 80px;
+}
+
+#bt-dk {
+    background: #f26522;
+    color: white;
+}
+
+.signup_line {
+    margin-left: -100px;
+}

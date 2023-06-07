@@ -1,0 +1,285 @@
+body {
+    text-align: justify;
+}
+#menu ul {
+    background: #da5b1f;
+    list-style-type: none;
+}
+
+#menu li {
+    text-align: center;
+    color: #f1f1f1;
+    display: inline-block;
+    width: 150px;
+    line-height: 40px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#menu ul li a:hover {
+    background: black;
+    color: white;
+}
+
+#menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+
+#menu li {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    width: 200px;
+    float: right;
+}
+
+#menu ul li:hover .sub-menu {
+    display: block;
+}
+#signin_signup_pay {
+    color: white;
+    margin-top: -35px;
+    margin-left: 885px;
+    width: 260px;
+}
+#signin {
+    margin-top: 15px;
+    margin-left: -15px;
+    width: 100px;
+}
+#signup {
+    margin-left: 100px;
+    margin-top: -18px;
+    width: 100px;
+}
+#pay {
+    margin-top: -18px;
+    margin-left: 200px;
+    width: 100px;
+}
+#top {
+    margin-top: 20px;
+    margin-left: 1000px;
+    font-size: 15px;
+    height: 30px;
+}
+#logo {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+#section2 {
+    background: #f26522;
+    height: 100px;
+}
+button {
+    height: 40px;
+    width: 110px;
+    color: black;
+}
+#section3 {
+    background: #da5b1f;
+    height: 40px;
+    margin-left: -50px;
+    margin-top: -16px;
+}
+#section4 {
+    margin-left: 35px;
+}
+#img1 {
+    float: left;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+#img2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+#section5 {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 300px;
+    height: 480px;
+}
+#sale_top {
+    width: 147px;
+}
+#img_sale_top {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#sale_top_price {
+    width: 180px;
+    margin-left: 60px;
+}
+#section6 {
+    float: right;
+    margin-right: 80px;
+    margin-top: -480px;
+    width: 950px;
+    height: 400px;
+
+}
+#new_product {
+    margin-left: 10px;
+    width: 150px;
+}
+#new_product_view {
+    font-size: 15px;
+    margin-left: 830px;
+    margin-top: -35px;
+    width: 100px;
+}
+#product_sale {
+    margin-left: 10px;
+    width: 190px;
+}
+#product_sale_view {
+    font-size: 15px;
+    margin-left: 830px;
+    margin-top: -35px;
+    width: 100px;
+}
+.price {
+    color: orange;
+}
+
+p:hover {
+    color: orange;
+}
+
+.httt {
+    margin-top: 10px;
+    font-size: 17px;
+}
+#section8 {
+    float: right;
+    margin-right: 80px;
+    margin-top: -30px;
+    width: 950px;
+    height: 800px;
+}
+#section9 {
+    float: right;
+    margin-right: 80px;
+    width: 950px;
+}
+.product {
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+}
+
+#section12 {
+    margin-top: -28px;
+    margin-left: 80px;
+    width: 300px;
+    height: 1730px;
+}
+#section13 {
+    float: right;
+    margin-right: 80px;
+    margin-top: 50px;
+    height: 400px;
+    width: 950px;
+}
+#section14 {
+    float: right;
+    margin-right: 80px;
+    margin-top: 50px;
+    width: 950px;
+    height: 400px;
+}
+#news {
+    width: 80px;
+}
+#img-news {
+    margin-top: 10px;
+}
+#introduce-img {
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 40px;
+}
+#category_sanphammoi {
+    margin-left: -25px;
+    margin-top: -15px;
+}
+#img_header {
+    background: white;
+    margin-top: 30px;
+    height: 300px;
+    /*position: fixed;*/
+}
+#img_header_background {
+    height: 300px;
+}
+#button_slide_1 {
+    margin-left: 190px;
+    margin-top: -60px;
+    color: black;
+}
+#button_slide_2 {
+    margin-top: -60px;
+    color: black;
+}
+#slide {
+    margin-top: 15px;
+}
+#button_slide_news_1 {
+    margin-left: 190px;
+    margin-top: -45px;
+    color: black;
+}
+#button_slide_news_2 {
+    margin-top: -45px;
+    color: black;
+
+}
+#content_news {
+    margin-left:10px ;
+    width: 250px;
+}
+#bottom {
+    color: white;
+    background: black;
+    width: 1440px;
+    height: 270px;
+    margin-top: 40px;
+}
+#footer {
+    margin-top: 40px;
+}
+#top_line_footer {
+    margin-top: 10px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    background: orange;
+    color: orangered;
+}
+#myBtn:hover {
+    background: black;
+}

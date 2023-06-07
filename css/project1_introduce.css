@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+}
+#section1 {
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+#top {
+    margin-top: 10px;
+    margin-left: 1000px;
+    font-size: 15px;
+    height: 30px;
+}
+#logo {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+#section2 {
+    background: #f26522;
+    height: 100px;
+}
+button {
+    height: 40px;
+    width: 110px;
+    color: black;
+}
+
+
+#section3 {
+    background: #da5b1f;
+    height: 40px;
+    margin-left: -50px;
+    margin-top: -16px;
+}
+#email {
+    margin-top: 30px;
+}
+#email2 {
+    margin-top: 20px;
+}
+
+#timkiem-email {
+    margin-top: 20px;
+    width: 800px;
+    margin-left: 300px;
+
+}
+#section15 {
+    background: white;
+    margin-top: 100px;
+    height: 220px;
+}
+#section16 {
+    background: white;
+    float: right;
+    margin-right: 80px;
+    margin-top: -440px;
+    width: 950px;
+}
+
+#content {
+    text-align: justify;
+}
+body {
+    text-align: justify;
+}
+#introduce-top {
+    font-size: 22px;
+}
+#line1 {
+    margin-top: 20px;
+}
+
+#trangchu {
+     margin-top: 10px;
+    margin-bottom: 10px;
+}
