@@ -25,7 +25,7 @@ include('header.php')
                     </div>
                     <div id="diquahoacuc">
                         <div id="diquahoacuc-name">No baked</div>
-                        <div id="diquahoacuc-tt">Tình trạng: <span style="color:orange;"> Còn hàng</span> | Loại: <span style="color:orange;"> Sách thường thức </span></div>
+                        <div id="diquahoacuc-tt">Tình trạng: <span style="color:orange;"> Còn hàng</span> | Loại: <span style="color:orange;"> Sách văn học </span></div>
                         <div id="diquahoacuc-price"><b style="color:orange;"> 97.000đ </b><span><sub><strike> 129.000đ</strike></sub></span></div>
                     </div>
                 </div>

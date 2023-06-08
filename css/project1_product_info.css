@@ -34,22 +34,29 @@
 .quantity-section {
     width: 160px;
     margin-left: 450px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 #decrease-btn {
     width: 50px;
     border-radius: 15px;
+    background: orange;
+}
+#decrease-btn:hover, #increase-btn:hover, #submit:hover {
+    background: black;
+    color: white;
 }
 #increase-btn {
     width: 50px;
     border-radius: 15px;
+    background: orange;
 }
 #quantity {
     width: 50px;
 }
 #submit {
-    background: white;
-    width: 70px;
+    background: orange;
+    margin-top: 30px;
+    border-radius: 15px;
 }
 .wrapper {
     margin-top: 10px;

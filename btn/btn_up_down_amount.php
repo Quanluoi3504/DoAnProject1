@@ -4,7 +4,7 @@
         <button id="decrease-btn" type="button">-</button>
         <input type="number" id="quantity" value="1" min="1" max="10">
         <button id="increase-btn" type="button">+</button>
-        <button id="submit" type="submit">Buy</button>
+        <button style="width: 100px" id="submit" type="submit"><a href="page_shopingcart.php">Add to cart</a></button>
         </form>
     </div>
     <script>

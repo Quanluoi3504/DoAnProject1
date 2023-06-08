@@ -24,7 +24,7 @@ include('header.php')
                         <img src="image/neu-gap-nguoi-ay-cho-toi-gui-loi-chao--2-.png" style="width: 200px" alt="">
                     </div>
                     <div id="diquahoacuc">
-                        <div id="diquahoacuc-name">No baked</div>
+                        <div id="diquahoacuc-name">Nếu gặp người ấy</div>
                         <div id="diquahoacuc-tt">Tình trạng: <span style="color:orange;"> Còn hàng</span> | Loại: <span style="color:orange;">Sách văn học</span></div>
                         <div id="diquahoacuc-price"><b style="color:orange;"> 65.000đ </b><span><sub><strike> 86.000đ</strike></sub></span></div>
                     </div>

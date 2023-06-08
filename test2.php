@@ -5,13 +5,15 @@ $result = mysqli_query($connect,$sql);
     while ($row = $result->fetch_assoc()) {
         echo $row['prd_id'];
         echo '<br>';
-        echo $row['prd_name'];
+        echo $row['prd_name'] ;
         echo '<br>';
-        echo $row['prd_price'];
+        echo $row['prd_quantity'] * 2;
         echo '<br>';
-        echo $row['prd_image'];
+        echo $row['prd_price'] * 2;
+        echo '<br>';
+        echo $row['prd_image'] ;
         echo '<br>';
 
     };
-
 ?>
+

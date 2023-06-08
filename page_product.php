@@ -84,7 +84,7 @@
                                 <p  align="center"class="price"><b> 56.000đ </b><span><strike> 75.000đ</strike></span></p>
                             </div>
                             <div class="col">
-                                <div class="p-3"><a href="product_bimatcookies.php"><img src="image/ready-to-cook-no-baked-40-mon-banh-cuc-ngon-khong-can-nuong--1-.png" style="width: 240px" alt=""></a></div>
+                                <div class="p-3"><a href="product_nobaked.php"><img src="image/ready-to-cook-no-baked-40-mon-banh-cuc-ngon-khong-can-nuong--1-.png" style="width: 240px" alt=""></a></div>
                                 <p align="center" class="product"><a href="product_bimatcookies.php">BÍ MẬT COOKIES</a></p>
                                 <p  align="center"class="price"><b> 97.000đ </b><span><strike> 129.000đ</strike></span></p>
                             </div>
