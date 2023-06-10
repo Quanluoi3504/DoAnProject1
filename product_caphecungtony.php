@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/project1_product_info.css">
 <?php
 include('header.php')
 ?>
@@ -14,11 +15,8 @@ include('header.php')
             </div>
         </div>
     <!--</top>-->
-
     <!--<product>-->
         <div class="container" style="font-family: 'Helvetica Neue'">
-            <div class="row">
-                <div class="col">
                     <div id="img-diquahoacuc">
                         <img src="image/ca-phe-cung-tony-phien-ban-sach-kho-nho--1-.png" style="width: 200px" alt="">
                         <img src="image/ca-phe-cung-tony-phien-ban-sach-kho-nho--2-.png" style="width: 200px" alt="">
@@ -28,14 +26,35 @@ include('header.php')
                         <div id="diquahoacuc-tt">Tình trạng: <span style="color:orange;"> Còn hàng</span> | Loại: <span style="color:orange;">Sách kỹ năng</span></div>
                         <div id="diquahoacuc-price"><b style="color:orange;"> 56.000đ </b><span><sub><strike> 75.000đ</strike></sub></span></div>
                     </div>
-<!--                    --><?php
-//                    include('btn/btn_up_down_amount.php');
-//                    ?>
-                </div>
-            </div>
+                    <div>
+                        <div class="quantity-section">
+                            <div class="quantity-input">
+                                <form action="">
+                                    <button id="decrease-btn" type="button">-</button>
+                                    <input type="number" id="quantity" value="1" min="1" max="10">
+                                    <button id="increase-btn" type="button">+</button>
+                                    <button style="width: 100px" id="submit" type="submit"><a href="page_shopingcart.php">Add to cart</a></button>
+                                </form>
+                            </div>
+                            <script>
+                                const decreaseBtn = document.getElementById("decrease-btn");
+                                const increaseBtn = document.getElementById("increase-btn");
+                                const quantityInput = document.getElementById("quantity");
+
+                                decreaseBtn.addEventListener("click", () => {
+                                    if (quantityInput.value > 1) {
+                                        quantityInput.value = parseInt(quantityInput.value) - 1;
+                                    }
+                                });
+
+                                increaseBtn.addEventListener("click", () => {
+                                    quantityInput.value = parseInt(quantityInput.value) + 1;
+                                });
+                            </script>
+                        </div>
+        </div>
         </div>
     <!--</product>-->
-
     <!--<sanphanlienquan>-->
         <div id="introduce-product" class="container" style="font-family: 'Helvetica Neue'">
             <div class="accordion" id="accordionExample">
@@ -65,9 +84,10 @@ include('header.php')
     <!--</sanphanlienquan>-->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
 <?php
-include('btn/btn_go_to_top.php')
+include('btn/btn_go_to_top.php');
 ?>
 <?php
-include('footer.php')
+include('footer.php');
 ?>

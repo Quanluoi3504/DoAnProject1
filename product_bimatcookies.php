@@ -21,17 +21,40 @@ include('header.php')
             <div class="row">
                 <div class="col">
                     <div id="img-diquahoacuc">
-                        <img src="image/bi-kip-nau-an-lan-vao-bep--1-.png" style="width: 200px" alt="">
-                        <img src="image/bi-kip-nau-an-lan-vao-bep--2-.png" style="width: 200px" alt="">
+                        <img src="image/ready-to-cook-bi-mat-cookies--1-.png" style="width: 200px" alt="">
+                        <img src="image/ready-to-cook-bi-mat-cookies--2-.png" style="width: 200px" alt="">
                     </div>
                     <div id="diquahoacuc">
                         <div id="diquahoacuc-name">Bí mật cookies</div>
                         <div id="diquahoacuc-tt">Tình trạng: <span style="color:orange;"> Còn hàng</span> | Loại: <span style="color:orange;">Sách kỹ năng</span></div>
                         <div class="price_product" id="diquahoacuc-price"><b style="color:orange;"> 97.000đ </b><span><sub><strike> 129.000đ</strike></sub></span></div>
                     </div>
-                    <?php
-                    include('btn/btn_up_down_amount.php');
-                    ?>
+                    <div>
+                        <div class="quantity-section">
+                            <div class="quantity-input">
+                                <form action="">
+                                    <button id="decrease-btn" type="button">-</button>
+                                    <input type="number" id="quantity" value="1" min="1" max="10">
+                                    <button id="increase-btn" type="button">+</button>
+                                    <button style="width: 100px" id="submit" type="submit"><a href="page_shopingcart.php">Add to cart</a></button>
+                                </form>
+                            </div>
+                            <script>
+                                const decreaseBtn = document.getElementById("decrease-btn");
+                                const increaseBtn = document.getElementById("increase-btn");
+                                const quantityInput = document.getElementById("quantity");
+
+                                decreaseBtn.addEventListener("click", () => {
+                                    if (quantityInput.value > 1) {
+                                        quantityInput.value = parseInt(quantityInput.value) - 1;
+                                    }
+                                });
+
+                                increaseBtn.addEventListener("click", () => {
+                                    quantityInput.value = parseInt(quantityInput.value) + 1;
+                                });
+                            </script>
+                        </div>
                     </div>
                 </div>
             </div>

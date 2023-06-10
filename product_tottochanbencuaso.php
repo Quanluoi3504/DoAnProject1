@@ -17,8 +17,6 @@ include('header.php')
 
     <!--<product>-->
         <div class="container" style="font-family: 'Helvetica Neue'">
-            <div class="row">
-                <div class="col">
                     <div id="img-diquahoacuc">
                         <img src="image/totto-chan-ben-cua-so-tai-ban--1-.png" style="width: 200px" alt="">
                         <img src="image/totto-chan-ben-cua-so-tai-ban--2-.png" style="width: 200px" alt="">
@@ -28,8 +26,31 @@ include('header.php')
                         <div id="diquahoacuc-tt">Tình trạng: <span style="color:orange;"> Còn hàng</span> | Loại: <span style="color:orange;"> Sách văn học</span></div>
                         <div id="diquahoacuc-price"><b style="color:orange;"> 60.000đ </b><span><sub><strike> 80.000đ</strike></sub></span></div>
                     </div>
-                </div>
-            </div>
+                    <div class="quantity-section">
+                        <div class="quantity-input">
+                            <form action="">
+                                <button id="decrease-btn" type="button">-</button>
+                                <input type="number" id="quantity" value="1" min="1" max="10">
+                                <button id="increase-btn" type="button">+</button>
+                                <button style="width: 100px" id="submit" type="submit"><a href="page_shopingcart.php">Add to cart</a></button>
+                            </form>
+                        </div>
+                        <script>
+                            const decreaseBtn = document.getElementById("decrease-btn");
+                            const increaseBtn = document.getElementById("increase-btn");
+                            const quantityInput = document.getElementById("quantity");
+
+                            decreaseBtn.addEventListener("click", () => {
+                                if (quantityInput.value > 1) {
+                                    quantityInput.value = parseInt(quantityInput.value) - 1;
+                                }
+                            });
+
+                            increaseBtn.addEventListener("click", () => {
+                                quantityInput.value = parseInt(quantityInput.value) + 1;
+                            });
+                        </script>
+                    </div>
         </div>
     <!--</product>-->
 
