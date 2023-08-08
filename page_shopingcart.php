@@ -18,7 +18,20 @@ include('header.php')
     <div class="container">
         <div class="row">
             <div class="col">
-                <div id="cart_line"><i id="icon" class="fa-solid fa-cart-shopping"></i></div>
+                <div id="cart">
+                    <div>Gio hang</div>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>The loai</th>
+                            <th>So luong</th>
+                            <th>Gia</th>
+                        </tr>
+                        <td>Di qua hoa cuc</td>
+                        <td>Sach ky nang</td>
+                        <td></td>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

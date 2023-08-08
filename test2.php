@@ -17,3 +17,27 @@ $result = mysqli_query($connect,$sql);
     };
 ?>
 
+<div id="cart" style="font-family: 'Helvetica Neue'">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="cart">
+                    <div>Gio hang</div>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>The loai</th>
+                            <th>So luong</th>
+                            <th>Gia</th>
+                        </tr>
+                        <td>
+                            <?php
+                            echo $row['prd_id'];
+                            ?>
+                        </td>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

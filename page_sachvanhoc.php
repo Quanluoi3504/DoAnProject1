@@ -5,7 +5,7 @@
         <div class="container">
             <div class="col">
                 <div class="row">
-                    <div id="trangchu"> <a href="page_homepage.php">Trang chủ </a><i class="fa-solid fa-arrow-right"></i><span style="color: orange"> SÁCH TUỔI TEEN</span>
+                    <div id="trangchu"> <a href="page_homepage.php">Trang chủ </a><i class="fa-solid fa-arrow-right"></i><span style="color: orange"> SÁCH VĂN HỌC</span>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
         <div class="container">
             <div class="col">
                 <div class="row">
-                    <div id="content-top">SÁCH TUỔI TEEN</div>
+                    <div id="content-top">SÁCH VĂN HỌC</div>
                     <br>
                     <div class="container text-center">
                         <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">

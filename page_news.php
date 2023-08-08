@@ -64,10 +64,6 @@ include('header.php')
                                 <p align="center" class="product"><a href="news_lutrenhapenderwicks.php">Lũ trẻ nhà Penderwicks</a></p>
                                 <div class="p-3"><a href="news_lutrenhapenderwicks.php"><img src="image/lu-tre.png" style="width: 300px" alt=""></a></div>
                             </div>
-                            <div class="col">
-                                <p align="center" class="product"><a href="news-cuoctinhgia.php">Em muốn có một cuộc tình già với anh</a></p>
-                                <div class="p-3"><a href="news-cuoctinhgia.php"><img src="image/cuoc-tinh.png" style="width: 300px" alt=""></a></div>
-                            </div>
                         </div>
                     </div>
                 </div>
