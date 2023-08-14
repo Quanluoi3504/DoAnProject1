@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <?php
 include('header.php');
+
 ?>
 
 <!--<img-top>-->
