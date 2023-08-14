@@ -1,5 +1,6 @@
 <?php
 include('header.php')
+//$sql = "insert into tbl_customer"
 ?>
 <!--<body>-->
 <div id="section-signup" style="font-family: 'Helvetica Neue'">

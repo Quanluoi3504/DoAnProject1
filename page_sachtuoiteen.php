@@ -1,4 +1,7 @@
-<?php include('header.php') ?>
+<?php include('header.php');
+$sql = "select * from tbl_product where cate_id = 1";
+$result = mysqli_query($conn, $sql);
+?>
 
     <!--<top>-->
     <div id="product" style="font-family: 'Helvetica Neue'">
@@ -54,11 +57,13 @@
                     <br>
                     <div class="container text-center">
                         <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
-                            <div class="col">
-                                <div class="p-3"><a href="product_diquahoacuc.php"><img src="image/di-qua-hoa-cuc-tai-ban--1-.png" style="width: 240px" alt=""></a></div>
-                                <p align="center" class="product"><a href="product_diquahoacuc.php">ĐI QUA HOA CÚC</a></p>
-                                <p  align="center" class="price"><b> 56.000đ </b><span><strike> 65.000đ</strike></span></p>
-                            </div>
+                            <?php while($row = $result->fetch_assoc()) {?>
+                                <div class="col">
+                                    <div class="p-3"><a href=""><img src="image/<?php echo $row["prd_image"]?>" style="width: 240px" alt=""></a></div>
+                                    <p align="center" class="product"><a href=""><?php echo $row["prd_name"]?></a></p>
+                                    <p  align="center" class="price"><b>$<?php echo $row["prd_price"]?></b></p>
+                                </div>
+                            <?php }?>
                         </div>
                     </div>
                 </div>

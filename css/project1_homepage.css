@@ -102,34 +102,11 @@ button {
     float: left;
     margin-left: 10px;
     margin-top: 20px;
-
 }
 
-#section5 {
-    margin-top: 30px;
-    margin-left: 80px;
-    width: 300px;
-    height: 480px;
-}
-#sale_top {
-    width: 147px;
-}
-#img_sale_top {
-    margin-left: 15px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-#sale_top_price {
-    width: 180px;
-    margin-left: 60px;
-}
 #section6 {
-    float: right;
-    margin-right: 80px;
-    margin-top: -480px;
-    width: 950px;
-    height: 400px;
-
+    background: #0a53be ;
+    margin-top: 20px;
 }
 #new_product {
     margin-left: 10px;
@@ -164,16 +141,7 @@ p:hover {
     font-size: 17px;
 }
 #section8 {
-    float: right;
-    margin-right: 80px;
-    margin-top: -30px;
-    width: 950px;
-    height: 800px;
-}
-#section9 {
-    float: right;
-    margin-right: 80px;
-    width: 950px;
+    background: orange;
 }
 .product {
     margin-top: 20px;
@@ -185,32 +153,13 @@ a:hover {
     color: orange;
 }
 
-#section12 {
-    margin-top: -28px;
-    margin-left: 80px;
-    width: 300px;
-    height: 1730px;
-}
 #section13 {
-    float: right;
-    margin-right: 80px;
-    margin-top: 50px;
-    height: 400px;
-    width: 950px;
+    background: green;
 }
 #section14 {
-    float: right;
-    margin-right: 80px;
-    margin-top: 50px;
-    width: 950px;
-    height: 400px;
+    background: #da5b1f;
 }
-#news {
-    width: 80px;
-}
-#img-news {
-    margin-top: 10px;
-}
+
 #introduce-img {
     margin-top: 10px;
     width: 200px;
@@ -228,32 +177,6 @@ a:hover {
 }
 #img_header_background {
     height: 300px;
-}
-#button_slide_1 {
-    margin-left: 190px;
-    margin-top: -60px;
-    color: black;
-}
-#button_slide_2 {
-    margin-top: -60px;
-    color: black;
-}
-#slide {
-    margin-top: 15px;
-}
-#button_slide_news_1 {
-    margin-left: 190px;
-    margin-top: -45px;
-    color: black;
-}
-#button_slide_news_2 {
-    margin-top: -45px;
-    color: black;
-
-}
-#content_news {
-    margin-left:10px ;
-    width: 250px;
 }
 #bottom {
     color: white;

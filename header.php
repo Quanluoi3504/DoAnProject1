@@ -52,15 +52,11 @@
                             <li>
                                 <a href="page_product.php"><i class="fa-solid fa-book"></i> SẢN PHẨM</a>
                                 <ul class="sub-menu">
-                                    <li><a href="page_product.php"><i class="fa-brands fa-hotjar"></i> Sản phẩm nổi bật</a></li>
-                                    <li><a href="page_product.php"><i class="fa-solid fa-tag"></i> Sản phẩm giảm giá</a></li>
                                     <li><a href="page_sachtuoiteen.php"><i class="fa-solid fa-tag"></i> Sách tuổi teen</a></li>
                                     <li><a href="page_sachthieunhi.php"><i class="fa-solid fa-tag"></i> Sách thiếu nhi</a></li>
                                     <li><a href="page_sachkynang.php"><i class="fa-solid fa-tag"></i> Sách kỹ năng</a></li>
                                     <li><a href="page_sachvanhoc.php"> <i class="fa-solid fa-tag"></i>Sách văn học</a></li>
                                 </ul>
-                            </li>
-                            <li><a href="page_news.php"><i class="fa-solid fa-newspaper"></i> TIN TỨC</a></li>
                             <li><a href="page_contact.php"><i class="fa-solid fa-phone"></i> LIÊN HỆ</a></li>
                         </ul>
                     </div>
