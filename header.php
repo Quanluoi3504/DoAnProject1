@@ -65,30 +65,4 @@
         </div>
     </div>
 </menu>
-<!--category-->
-<!--<div class="category_section layout_padding">-->
-<!--    <div class="container">-->
-<!--        <div class="category_main">-->
-<!--            <h2 class="category_text">Category</h2>-->
-<!---->
-<!--            <div class="category_menu">-->
-<!--                <ul>-->
-<!--                    <li><a href="#" onclick="displayProductsByCate('ASUS')">Asus</a></li>-->
-<!--                    <li><a href="#" onclick="displayProductsByCate('Macbook')">Macbook</a></li>-->
-<!--                    <li><a href="#" onclick="displayProductsByCate('Dell')">Dell</a></li>-->
-<!--                    <li><a href="#" onclick="displayProductsByCate('HP')">HP</a></li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--            <script>-->
-<!--                function displayProductsByCate($category) {-->
-<!--                    // Redirect to product.php and pass the selected category as a parameter-->
-<!--                    window.location.href = ' ?category=' + encodeURIComponent($category);-->
-<!--                }</script>-->
-<!--            <script>-->
-<!--                function addToCart($prd_name,$prd_id,$prd_price,$prd_quantity = 1) {-->
-<!--                    window.location.href = 'cart.php?prd_name=' + encodeURIComponent($prd_name)+"&prd_id="+encodeURIComponent($prd_id)+"&prd_price="+encodeURIComponent($prd_price)+"&quantity="+encodeURIComponent($prd_quantity);-->
-<!--                }-->
-<!--            </script>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
+
