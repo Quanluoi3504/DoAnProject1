@@ -62,7 +62,7 @@ $tuoiteen = mysqli_query($conn,$sql);
 <!--</sanpham>-->
 <!--<sale2>-->
 <?php
-$sql = "select * from tbl_product where cate_id = 2";
+$sql = "select * from tbl_product where cate_id = 2" ;
 $thieunhi = mysqli_query($conn,$sql);
 ?>
 <div id="section6" style="font-family: 'Helvetica Neue'">
