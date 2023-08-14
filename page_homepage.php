@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <?php
 include('header.php');
-$thieunhi = mysqli_query($conn,$sql);
+
+
 ?>
 
 <!--<img-top>-->
@@ -22,7 +23,7 @@ $thieunhi = mysqli_query($conn,$sql);
 <!--</img-top>-->
 <!--<sanpham>-->
 <?php
-$sql = "select * from tbl_product where cate_id = 3";
+$sql = "select * from tbl_product where cate_id = 1";
 $tuoiteen = mysqli_query($conn,$sql);
 ?>
 <div id="section6" style="font-family: 'Helvetica Neue'">
