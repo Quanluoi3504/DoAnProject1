@@ -19,9 +19,7 @@ $row = $result->fetch_assoc();
                                     <div class="p-3"><a href=""><img src="image/<?php echo $row["prd_image"]?>" style="width: 200px" alt=""></a></div>
                                     <p align="center" class="product"><a href=""><?php echo $row["prd_name"]?></a></p>
                                     <p  align="center" class="price"><b>$<?php echo $row["prd_price"]?></b></p>
-                                    <a href="javascript:void(0);" onclick="productDetails('<?php echo $row['prd_name']; ?>','<?php echo $row['prd_id']; ?>','<?php echo $row['prd_price']; ?>')">View details</a>
                                 </div>
-
                         </div>
                     </div>
                 </div>
