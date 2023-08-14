@@ -1,7 +1,6 @@
 <?php include('header.php');
 $sql = "select * from tbl_product";
 $result = mysqli_query($conn,$sql);
-
 ?>
 <!--<top>-->
   <div id="product" style="font-family: 'Helvetica Neue'">
@@ -62,6 +61,7 @@ $result = mysqli_query($conn,$sql);
                                 <div class="p-3"><a href=""><img src="image/<?php echo $row["prd_image"]?>" style="width: 240px" alt=""></a></div>
                                 <p align="center" class="product"><a href=""><?php echo $row["prd_name"]?></a></p>
                                 <p  align="center" class="price"><b>$<?php echo $row["prd_price"]?></b></p>
+                                <a href="javascript:void(0);" onclick="productDetails('<?php echo $row['prd_name']; ?>','<?php echo $row['prd_id']; ?>','<?php echo $row['prd_price']; ?>')">View details</a>
                             </div>
                             <?php }?>
                         </div>
@@ -70,6 +70,15 @@ $result = mysqli_query($conn,$sql);
             </div>
         </div>
     </div>
+<script>
+    function displayProductsByCate(category) {
+        // Redirect to product.php and pass the selected category as a parameter
+        window.location.href = 'sort_by_cate.php?category=' + encodeURIComponent(category);
+    }
+    function productDetails($prd_name,$prd_id) {
+        window.location.href = 'product.php?prd_name=' + encodeURIComponent($prd_name)+"&prd_id="+encodeURIComponent($prd_id);
+    }
+</script>
 <!--</all-pro-duct>-->
 <?php
 include('btn/btn_go_to_top.php')

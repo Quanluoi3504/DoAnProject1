@@ -2,7 +2,6 @@
 <?php
 include('header.php');
 
-
 ?>
 
 <!--<img-top>-->
@@ -31,8 +30,8 @@ $tuoiteen = mysqli_query($conn,$sql);
         <div class="row">
             <div class="col">
                 <div>
-                    <p id="new_product"><a href="page_product.php">Sách tuoi teen</a></p>
-                    <p id="new_product_view"><a href="page_product.php">Xem tất cả</a></p>
+                    <p id="new_product">Sách Tuổi Teen</p>
+                    <p id="new_product_view"><a href="page_sachtuoiteen.php">Xem tất cả</a></p>
                 </div>
                 <div id="category_sanphammoi">
                     <div class="container text-center">
@@ -42,6 +41,7 @@ $tuoiteen = mysqli_query($conn,$sql);
                                     <div class="p-3"><a href=""><img src="image/<?php echo $row["prd_image"]?>" style="width: 200px" alt=""></a></div>
                                     <p align="center" class="product"><a href=""><?php echo $row["prd_name"]?></a></p>
                                     <p  align="center" class="price"><b>$<?php echo $row["prd_price"]?></b></p>
+                                    <a href="javascript:void(0);" onclick="productDetails('<?php echo $row['prd_name']; ?>','<?php echo $row['prd_id']; ?>','<?php echo $row['prd_price']; ?>')">View details</a>
                                 </div>
                             <?php }?>
                         </div>
@@ -51,18 +51,27 @@ $tuoiteen = mysqli_query($conn,$sql);
         </div>
     </div>
 </div>
+<script>
+    function displayProductsByCate(category) {
+        // Redirect to product.php and pass the selected category as a parameter
+        window.location.href = 'sort_by_cate.php?category=' + encodeURIComponent(category);
+    }
+    function productDetails($prd_name,$prd_id) {
+        window.location.href = 'product.php?prd_name=' + encodeURIComponent($prd_name)+"&prd_id="+encodeURIComponent($prd_id);
+    }
+</script>
 <!--</sanpham>-->
 <!--<sale2>-->
 <?php
-$sql = "select * from tbl_product where cate_id = 2";
+$sql = "select * from tbl_product where cate_id = 2" ;
 $thieunhi = mysqli_query($conn,$sql);
 ?>
-<div id="section8" style="font-family: 'Helvetica Neue'">
+<div id="section6" style="font-family: 'Helvetica Neue'">
     <div class="container">
         <div class="row">
             <div class="col">
-                <p id="product_sale"><a href="page_product.php">Sach thieu nhi</a></p>
-                <p id="product_sale_view"><a href="page_product.php">Xem tất cả</a></p>
+                <p id="product_sale">Sách Thiếu Nhi</p>
+                <p id="new_product_view"><a href="page_sachthieunhi.php">Xem tất cả</a></p>
                 <div id="category_sanphammoi">
                     <div class="container text-center">
                         <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
@@ -71,6 +80,7 @@ $thieunhi = mysqli_query($conn,$sql);
                                     <div class="p-3"><a href=""><img src="image/<?php echo $row["prd_image"]?>" style="width: 200px" alt=""></a></div>
                                     <p align="center" class="product"><a href=""><?php echo $row["prd_name"]?></a></p>
                                     <p  align="center" class="price"><b>$<?php echo $row["prd_price"]?></b></p>
+                                    <a href="javascript:void(0);" onclick="productDetails('<?php echo $row['prd_name']; ?>','<?php echo $row['prd_id']; ?>','<?php echo $row['prd_price']; ?>')">View details</a>
                                 </div>
                             <?php }?>
                         </div>
@@ -86,11 +96,13 @@ $thieunhi = mysqli_query($conn,$sql);
 $sql = "select * from tbl_product where cate_id = 3";
 $kynang = mysqli_query($conn,$sql);
 ?>
-<div id="section13" style="font-family: 'Helvetica Neue'">
+<div id="section6" style="font-family: 'Helvetica Neue'">
     <div class="container">
         <div class="row">
             <div class="col">
-                <p id="spm"><a href="page_product.php">Sach ky nang</a></p>
+                <p id="spm">Sách Kỹ Năng</p>
+                <p id="new_product_view"><a href="page_sachkynang.php">Xem tất cả</a></p>
+
                 <div id="category_sanphammoi">
                     <div class="container text-center">
                         <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
@@ -99,6 +111,8 @@ $kynang = mysqli_query($conn,$sql);
                                     <div class="p-3"><a href=""><img src="image/<?php echo $row["prd_image"]?>" style="width: 200px" alt=""></a></div>
                                     <p align="center" class="product"><a href=""><?php echo $row["prd_name"]?></a></p>
                                     <p  align="center" class="price"><b>$<?php echo $row["prd_price"]?></b></p>
+                                    <a href="javascript:void(0);" onclick="productDetails('<?php echo $row['prd_name']; ?>','<?php echo $row['prd_id']; ?>','<?php echo $row['prd_price']; ?>')">View details</a>
+
                                 </div>
                             <?php }?>
                         </div>
@@ -114,11 +128,13 @@ $kynang = mysqli_query($conn,$sql);
 $sql = "select * from tbl_product where cate_id = 4";
 $vanhoc = mysqli_query($conn,$sql);
 ?>
-<div id="section14" style="font-family: 'Helvetica Neue'">
+<div id="section6" style="font-family: 'Helvetica Neue'">
     <div class="container">
         <div class="row">
             <div class="col">
-                <p id="spm"><a href="page_product.php">sach van hoc</a></p>
+                <p id="spm">Sách Văn Học</p>
+                <p id="new_product_view"><a href="page_sachvanhoc.php">Xem tất cả</a></p>
+
                 <div id="category_sanphammoi">
                     <div class="container text-center">
                         <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
@@ -127,6 +143,7 @@ $vanhoc = mysqli_query($conn,$sql);
                                     <div class="p-3"><a href=""><img src="image/<?php echo $row["prd_image"]?>" style="width: 200px" alt=""></a></div>
                                     <p align="center" class="product"><a href=""><?php echo $row["prd_name"]?></a></p>
                                     <p  align="center" class="price"><b>$<?php echo $row["prd_price"]?></b></p>
+                                    <a href="javascript:void(0);" onclick="productDetails('<?php echo $row['prd_name']; ?>','<?php echo $row['prd_id']; ?>','<?php echo $row['prd_price']; ?>')">View details</a>
                                 </div>
                             <?php }?>
                         </div>
