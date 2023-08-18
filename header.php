@@ -1,5 +1,8 @@
 <?php
- $conn = mysqli_connect("127.0.0.1","root","12345678","category");
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+ $conn = mysqli_connect("127.0.0.1","root","root","category");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +35,8 @@
                     <a href="page_signup.php"><i class="fa-solid fa-right-to-bracket"></i> Đăng ký</a>
                         </div>
                         <div id="pay">
-                    <a  href="page_shopingcart.php"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</a>
+                    <a  href="page_shopping_cart.php"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</a>
+                            <a href="admin_page.php"><i class="fa-solid fa-admin">Quan li<i></a>
                         </div>
                     </div>
                 </div>
