@@ -27,7 +27,7 @@
                         <div id="top_line_footer" >
                             <p style="color: white"><i class="fa-brands fa-facebook"></i> Facebook :</p>
                             <p><a href="https://www.facebook.com/profile.php?id=100046490359284"><i class="fa-solid fa-user"></i> Hiep</a></p>
-                                <p><a href="https://www.facebook.com/phucanh.nguyen.9843499"><i class="fa-solid fa-user"></i> Phuc Anh</a></p>
+                                <p><a href="#"><i class="fa-solid fa-user"></i>Anh Quan</a></p>
                             <p style="color:white;"><i class="fa-brands fa-instagram"></i> Instagram :</p>
                                 <p><a href="https://www.instagram.com/duch.312/"><i class="fa-solid fa-hashtag"></i> Hiep</a></p>
                         </div>
@@ -35,17 +35,17 @@
                     <div id="footer" align="center" class="col">THÔNG TIN
                         <div style="font-family: 'Helvetica Neue'" id="top_line_footer">
                                     <p style="color: white"><i class="fa-solid fa-inbox"></i> Mr.Hiep <a href="page_contact.php">123456980</a></p>
-                                    <p style="color: white"><i class="fa-solid fa-inbox"></i> Mr.Phucanh: <a href="page_contact.php">0897654321</a></p>
+                                    <p style="color: white"><i class="fa-solid fa-inbox"></i> Mr.AnhQuan: <a href="page_contact.php">0897654321</a></p>
                                     <p style="color: white"><i class="fa-solid fa-envelope"></i> Email liên hệ </p>
                                     <p><a href="page_contact.php"><i class="fa-solid fa-inbox"></i> tranduchiep312@gmail.com</a></p>
-                                    <p><a href="page_contact.php"><i class="fa-solid fa-inbox"></i> phucanh@gmail.com</a></p>
+                                    <p><a href="page_contact.php"><i class="fa-solid fa-inbox"></i> anhquan@gmail.com</a></p>
                         </div>
                     </div>
                     <div id="footer" class="col">THÔNG TIN
                         <div id="top_line_footer">Tầng 2 toà nhà 17, Tạ Quang Bửu, Hà Nội</div>
                         <div>
                             <p><a href="#">Hiepdeptrai@gmail.com</a></p>
-                            <p><a href="#">Phucanhnothandsome@gmail.com</a></p>
+                            <p><a href="#">Anhquannothandsome@gmail.com</a></p>
                             <p><a href="#">0123456789</a></p>
                         </div>
                             </div>

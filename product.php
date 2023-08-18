@@ -20,8 +20,8 @@ $row = $result->fetch_assoc();
                                     <p  align="center" class="price"><b>$<?php echo $row["prd_price"]?></b></p>
                                     <p>the loai : <?php echo $row["cate_name"] ?></p>
                                     <a href="javascript:void(0);" onclick="addToCart('<?php echo $row['prd_name']; ?>','<?php echo $row['prd_id']; ?>','<?php echo $row['prd_price']; ?>')">Add to cart</a>
-                                </div>
 
+                                </div>
                         </div>
                     </div>
                 </div>
