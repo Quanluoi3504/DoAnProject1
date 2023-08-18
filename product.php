@@ -11,7 +11,6 @@ $row = $result->fetch_assoc();
     <div class="container">
         <div class="row">
             <div class="col">
-                <p id="spm"><a href="page_product.php">sach van hoc</a></p>
                 <div id="category_sanphammoi">
                     <div class="container text-center">
                         <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
@@ -19,6 +18,9 @@ $row = $result->fetch_assoc();
                                     <div class="p-3"><a href=""><img src="image/<?php echo $row["prd_image"]?>" style="width: 200px" alt=""></a></div>
                                     <p align="center" class="product"><a href=""><?php echo $row["prd_name"]?></a></p>
                                     <p  align="center" class="price"><b>$<?php echo $row["prd_price"]?></b></p>
+                                    <p>the loai : <?php echo $row["cate_name"] ?></p>
+                                    <a href="javascript:void(0);" onclick="addToCart('<?php echo $row['prd_name']; ?>','<?php echo $row['prd_id']; ?>','<?php echo $row['prd_price']; ?>')">Add to cart</a>
+
                                 </div>
                         </div>
                     </div>
@@ -28,7 +30,25 @@ $row = $result->fetch_assoc();
     </div>
 </div>
 
+    <script>
+        function addToCart(product_name,product_id,product_price) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', window.location.href, true);
+            // Create a new FormData object and append the value to it
+            var formData = new FormData();
+            formData.append('product_name', product_name);
+            formData.append('product_id', product_id);
+            formData.append('product_price', product_price);
 
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                    window.location.href = "page_shopping_cart.php";
+                }
+            };
+            xhr.send(formData);
+
+        }
+    </script>
 
 
 

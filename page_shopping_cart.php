@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="css/project1_shoppingcart.css">
 <?php
-include('header.php')
+include_once ('header.php');
+
 ?>
 <!--<top>-->
 <div id="product" style="font-family: 'Helvetica Neue'">
@@ -29,7 +30,7 @@ include('header.php')
                         </tr>
                         <td>Di qua hoa cuc</td>
                         <td>Sach ky nang</td>
-                        <td></td>
+
                     </table>
                 </div>
             </div>
@@ -38,5 +39,5 @@ include('header.php')
 </div>
 
 <?php
-include "footer.php";
+include_once ("footer.php");
 ?>
